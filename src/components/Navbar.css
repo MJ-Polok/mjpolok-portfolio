@@ -26,8 +26,8 @@ nav.scrolled {
     padding: 15px 36px;
     border-radius: 100px;
     background: color-mix(in srgb, var(--surface-1) 70%, transparent);
-    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -153,8 +153,8 @@ nav.scrolled {
         right: 0;
         border-radius: 0;
         background: color-mix(in srgb, var(--surface-1) 70%, transparent);
-        backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
     }
 }
 
