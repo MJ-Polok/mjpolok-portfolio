@@ -11,7 +11,7 @@ export const navLinks: NavLink[] = [
 ];
 
 export const heroLinks: HeroLinks[] = [
-    { id: "resume", label: "Viwe CV", href: "/mjcv.pdf" },
+    { id: "resume", label: "Viwe CV", href: "/MJ_Polok_CV.pdf" },
     { id: "github", label: "GitHub", href: "https://github.com/MJ-Polok" },
     { id: "linkedin", label: "LinkedIn", href: "https://www.linkedin.com/in/mj-polok/" },
     { id: "facebook", label: "Facebook", href: "https://www.facebook.com/mj.polok.0" },
