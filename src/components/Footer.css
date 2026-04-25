@@ -1,0 +1,15 @@
+.footer-gradient {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: min(1120px, calc(100% - 3rem));
+    margin: 0 auto 3rem;
+    color: var(--text-soft);
+    font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+    .footer-gradient {
+        margin: 0 auto 2rem;
+    }
+}
