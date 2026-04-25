@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeUp, scaleIn, stagger } from "../lib/animations";
 import { skills } from "../constants";
 import "./Skills.css";

@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeUp, stagger } from "../lib/animations";
 import { FiExternalLink, FiPhone } from "react-icons/fi";
 import { heroLinks } from "../constants";
-import "./Contacts.css"
+import "./Contacts.css";
 
 const Contacts = () => {
     return (

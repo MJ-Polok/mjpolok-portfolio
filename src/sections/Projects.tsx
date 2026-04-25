@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeUp, stagger } from "../lib/animations";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { projects } from "../constants";
-import "./Projects.css"
+import "./Projects.css";
 
 const Projects = () => {
   return (

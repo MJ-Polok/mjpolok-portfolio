@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { navLinks } from "../constants";
-import { AnimatePresence, easeInOut, motion } from "framer-motion";
+import { AnimatePresence, easeInOut, motion } from "motion/react";
 import { FiMenu, FiX } from "react-icons/fi";
 import "./Navbar.css";
 import { useActiveSection } from "../Hooks/useActiveSection";
@@ -83,8 +83,12 @@ const Navbar = () => {
                                             key={link.id}
                                             href={`#${link.id}`}
                                             onClick={() => {
+                                                // alert("clicked: " + link.id);
                                                 setMobileMenuOpen(false);
                                                 setActiveSection(link.id);
+                                                setTimeout(() => {
+                                                    document.getElementById(link.id)?.scrollIntoView({ behavior: "smooth" });
+                                                }, 300);
                                             }}
                                             className={`floating-nav-link mobile ${activeSection == link.id ? "is-active" : ""}`}
                                         >

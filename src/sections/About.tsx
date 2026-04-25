@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { education, languages } from "../constants";
-import "./About.css"
+import "./About.css";
 import { fadeUp, stagger } from "../lib/animations";
 
 const About = () => {

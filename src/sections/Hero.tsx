@@ -1,4 +1,4 @@
-import { easeInOut, motion } from "framer-motion";
+import { easeInOut, motion } from "motion/react";
 import { heroHighlights, heroLinks } from "../constants";
 import "./Hero.css";
 
