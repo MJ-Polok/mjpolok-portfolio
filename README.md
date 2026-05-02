@@ -21,6 +21,7 @@
 
 ## Project Structure
 
+```
 src/
 ├── components/ ← Navbar, Footer
 ├── sections/ ← Hero, About, Skills, Projects, Contacts
@@ -29,6 +30,7 @@ src/
 ├── hooks/ ← Custom React hooks
 ├── lib/ ← Utilities & animations
 └── assets/ ← Images & fonts
+```
 
 ## Run Locally
 
