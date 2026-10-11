@@ -31,10 +31,3 @@ src/
 ├── lib/ ← Utilities & animations
 └── assets/ ← Images & fonts
 ```
-
-## Run Locally
-
-git clone https://github.com/MJ-Polok/mjpolok-portfolio
-cd mjpolok-portfolio
-npm install
-npm run dev
