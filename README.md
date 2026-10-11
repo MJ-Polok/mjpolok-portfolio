@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[mjpolok.pages.dev]()
+[mjpolok-portfolio.pages.dev](https://mjpolok-portfolio.pages.dev/)
 
 ## Tech Stack
 
