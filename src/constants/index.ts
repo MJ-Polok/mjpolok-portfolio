@@ -4,10 +4,10 @@ import { SiBootstrap, SiCss, SiExpress, SiHtml5, SiJavascript, SiMongodb, SiTail
 import { FiCpu, FiLayers, FiUsers } from "react-icons/fi";
 
 export const navLinks: NavLink[] = [
-    { id: "whoami", label: "whoami" },
-    { id: "skills", label: "skills" },
     { id: "projects", label: "projects" },
-    { id: "contacts", label: "contacts" },
+    { id: "services", label: "services" },
+    { id: "whoami", label: "about" },
+    { id: "contacts", label: "contact" },
 ];
 
 export const heroLinks: HeroLinks[] = [
@@ -19,7 +19,7 @@ export const heroLinks: HeroLinks[] = [
 
 export const heroHighlights: HeroHighlights[] = [
     { id: "availableIndicator", label: "Available for Work" },
-    { id: "location", label: "Barishal, Bangladeshi" },
+    { id: "location", label: "Barishal, Bangladesh" },
     { id: "remote", label: "Open to remote" },
 ];
 

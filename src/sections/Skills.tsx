@@ -5,7 +5,7 @@ import "./Skills.css";
 
 const Skills = () => {
     return (
-        <section id="skills" className="content-section">
+        <section id="services" className="content-section">
             <div className="section-shell skills-shell">
                 <motion.div
                     initial="hidden"
@@ -14,7 +14,7 @@ const Skills = () => {
                     variants={stagger}
                 >
                     <motion.h2 variants={fadeUp} className="section-heading">
-                        Skills
+                        Services
                     </motion.h2>
                     <motion.p variants={fadeUp} custom={1} className="section-intro">
                         Technologies I use regularly and the broader strengths I bring
@@ -34,7 +34,7 @@ const Skills = () => {
                         custom={1}
                         className="technical-skills-block"
                     >
-                        <span className="skills-group-label">Technical Skills</span>
+                        <span className="skills-group-label">Core Technologies</span>
                         <motion.div
                             variants={fadeUp}
                             custom={2}
@@ -67,7 +67,7 @@ const Skills = () => {
                         custom={3}
                         className="soft-skills-block"
                     >
-                        <span className="skills-group-label">Soft Skills</span>
+                        <span className="skills-group-label">Working Strengths</span>
                         <div className="badge-row">
                             {skills.others.map((skill) => {
                                 const Icon = skill.icon;

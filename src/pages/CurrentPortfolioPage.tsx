@@ -11,9 +11,9 @@ const CurrentPortfolioPage = () => {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Skills />
       <Projects />
+      <Skills />
+      <About />
       <Contacts />
       <Footer />
     </>
