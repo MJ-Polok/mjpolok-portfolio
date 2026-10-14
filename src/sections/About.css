@@ -104,10 +104,6 @@
 }
 
 @media (min-width: 768px) {
-    .content-section {
-        padding: 2rem 3rem 7rem;
-    }
-
     .whoami-shell {
         gap: 2rem;
     }
